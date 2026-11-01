@@ -1,0 +1,6 @@
+node_modules
+dashboard.html
+*.log
+.DS_Store
+.vscode/*
+.idea

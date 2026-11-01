@@ -1,0 +1,31 @@
+{
+  "name": "kirobench",
+  "version": "0.1.0",
+  "description": "Speed benchmark for Kiro CLI: TTFT, tokens per second, credits and cost per model, with an HTML comparison dashboard.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "kiro",
+    "kiro-cli",
+    "benchmark",
+    "tokens-per-second",
+    "ttft",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4regab/kirobench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4regab/kirobench/issues"
+  },
+  "homepage": "https://github.com/4regab/kirobench#readme",
+  "scripts": {
+    "bench": "node src/dashboard.mjs --run",
+    "dashboard": "node src/dashboard.mjs",
+    "models": "node src/acp-bench.mjs --list-models",
+    "install-hook": "node src/install.mjs"
+  }
+}
